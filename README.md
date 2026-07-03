@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29648758/README.md)
 # Gigi's Atelier — Studio Website
 
 A modern, responsive marketing website for **Gigi's Atelier**, a creative
@@ -75,7 +74,7 @@ No installation is required — there are no dependencies to install.
    `script.js`, and the `assets/` folder must stay in the same directory).
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/YOUR-USERNAME/Gigis-Atelier.git
 cd Gigis-Atelier
 ```
 
@@ -89,7 +88,7 @@ browsers restrict certain features when opening `index.html` directly
 via `file://`).
 
 **Option A — Open directly**
-Double-click `index.html`, or open it via your browser's File > Open menu.
+Double-click `index.html`, or open it via your browser's File → Open menu.
 
 **Option B — Local server (recommended)**
 
@@ -121,7 +120,7 @@ choose **Open with Live Server**.
 3. Under **Build and deployment → Source**, select **Deploy from a branch**.
 4. Choose the branch (e.g. `main`) and the root folder (`/`), then save.
 5. GitHub will publish the site at:
-   `https://<your-username>.github.io/<repository-name>/`
+   `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/`
 6. Changes pushed to that branch will redeploy automatically.
 
 ### Deploying to Netlify
