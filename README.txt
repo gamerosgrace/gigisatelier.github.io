@@ -1,3 +1,7 @@
-Place icon assets here (favicon, social share icons, UI icons).
+Place additional project photography, mockups, and portfolio imagery here.
 Currently included:
-- favicon.png  (placeholder — replace with a proper 32x32 / 512x512 icon export)
+- gigis-logo.png  (primary logo, used in header + footer)
+
+Suggested additions when real photography is ready:
+- portfolio/            (case study hero images & galleries)
+- team/                 (studio / about page photography)
