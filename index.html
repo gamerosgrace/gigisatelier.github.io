@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gigi's Atelier — Brand, Packaging &amp; Label Design Studio</title>
+  <meta name="description" content="Gigi's Atelier is a creative studio specializing in brand identity, packaging design, product labels, and print for entrepreneurs and product-based brands.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon (replace with your own icon file) -->
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ================= HEADER / NAVIGATION ================= -->
+  <header>
+    <nav class="wrap">
+      <a href="#home" class="logo">
+        <img src="assets/images/gigis-logo.png" alt="Gigi's Atelier logo">
+      </a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#process">Process</a>
+        <a href="#insights">Insights</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-cta">
+        <button class="btn" data-scroll-to="#contact">
+          Start a project <span class="btn-arrow">→</span>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mnav">
+          Menu
+        </button>
+      </div>
+    </nav>
+
+    <div id="mnav" class="mobile-nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#process">Process</a>
+      <a href="#insights">Insights</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- ================= HOME / HERO ================= -->
+  <section id="home" class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Creative Studio — Brand / Packaging / Label / Print</div>
+          <h1>Design that <span class="hl-pink">connects</span>, <span class="hl-yellow">creates</span> &amp; <span class="hl-blue">grows</span> your brand.</h1>
+          <p class="hero-sub">Gigi's Atelier builds brand identities, packaging, and print for entrepreneurs and product-based businesses who need their work to look as good as it is.</p>
+          <div class="hero-actions">
+            <button class="btn solid" data-scroll-to="#portfolio">View the work <span class="btn-arrow">→</span></button>
+            <button class="btn" data-scroll-to="#contact">Start a conversation</button>
+          </div>
+        </div>
+        <div class="hero-meta">
+          <div>STUDIO — FOUNDED FOR INDEPENDENT BRANDS</div>
+          <div>DISCIPLINES — IDENTITY, PACKAGING, LABEL, PRINT, DIGITAL</div>
+          <div>CURRENTLY BOOKING — NEW PROJECTS FOR Q4</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VALUE PROP ================= -->
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="value-grid fade-up">
+        <div>
+          <div class="value-num">01</div>
+          <h3>Creativity with purpose</h3>
+          <p>Every idea is measured against what it needs to do for your brand, not just how it looks in isolation.</p>
+        </div>
+        <div>
+          <div class="value-num">02</div>
+          <h3>Strategic thinking</h3>
+          <p>Design decisions trace back to your audience, your shelf, and your goals — never trend for its own sake.</p>
+        </div>
+        <div>
+          <div class="value-num">03</div>
+          <h3>Attention to detail</h3>
+          <p>Kerning, stock, finish, alignment. The details are where trust is built, and where we spend our time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED PROJECTS ================= -->
+  <section class="alt" id="featured">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div>
+          <div class="eyebrow">Selected Work</div>
+          <h2>Recent <span class="hl-pink">projects</span></h2>
+        </div>
+        <p>A handful of the identities, packaging systems, and labels we've shipped recently. Full case studies live in the portfolio.</p>
+      </div>
+      <div class="proj-grid fade-up" id="featured-grid"></div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES PREVIEW ================= -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div>
+          <div class="eyebrow">What We Do</div>
+          <h2><span class="hl-yellow">Services</span></h2>
+        </div>
+        <p>Seven disciplines, one point of view. Click any service to see how we work and what you'll walk away with.</p>
+      </div>
+      <div id="service-list" class="fade-up"></div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="dark mat-grid" id="about">
+    <div class="wrap">
+      <div class="eyebrow fade-up">About the Studio</div>
+      <p class="about-lead fade-up">Gigi's Atelier started with a simple observation: most small and growing brands are either underserved by design — stuck with templates that don't hold up — or overserved by agencies built for budgets they don't have. We built a studio in between: senior-level thinking, delivered with the care of a small team that treats every project as its own.</p>
+
+      <div class="about-cols fade-up">
+        <div class="spec-card">
+          <h3>Mission</h3>
+          <p>To transform ideas into meaningful visual experiences that help businesses grow — combining creativity, strategy, and craft in equal measure.</p>
+        </div>
+        <div class="spec-card">
+          <h3>Vision</h3>
+          <p>A world where independent brands compete on the strength of their ideas, not the size of their design budget.</p>
+        </div>
+        <div class="spec-card">
+          <h3>Philosophy</h3>
+          <p>Design is more than aesthetics. It's a functional tool for communication, trust, and differentiation — every choice should earn its place.</p>
+        </div>
+        <div class="spec-card">
+          <h3>Design Process</h3>
+          <p>A seven-stage process — from discovery through final delivery — built to keep strategy and craft aligned at every step. See the full process below.</p>
+        </div>
+      </div>
+
+      <div class="why-list fade-up">
+        <div><span class="check">+</span><span>Senior design attention on every project — no hand-offs to junior teams.</span></div>
+        <div><span class="check">+</span><span>Strategy before style: every direction is grounded in your audience and market.</span></div>
+        <div><span class="check">+</span><span>Production-ready deliverables — print-ready files, specs, and guidelines included.</span></div>
+        <div><span class="check">+</span><span>A collaborative process with clear milestones, not a black box.</span></div>
+        <div><span class="check">+</span><span>Experience across packaging, print, and digital — one studio, full consistency.</span></div>
+        <div><span class="check">+</span><span>Honest counsel — we'll tell you when an idea doesn't serve the brand.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PORTFOLIO ================= -->
+  <section id="portfolio">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div>
+          <div class="eyebrow">Portfolio</div>
+          <h2>Selected <span class="hl-blue">case studies</span></h2>
+        </div>
+        <p>Filter by discipline. Click a project to open the full case study — challenge, solution, and results.</p>
+      </div>
+
+      <div class="filter-row fade-up" id="filter-row"></div>
+      <div class="proj-grid fade-up" id="portfolio-grid"></div>
+
+      <div class="case-panel" id="case-panel">
+        <button class="case-close" id="case-close" type="button" aria-label="Close case study">CLOSE ✕</button>
+        <div class="eyebrow" id="case-tag">Packaging</div>
+        <h2 id="case-title" class="case-title">Project Title</h2>
+        <p id="case-client" class="case-client">Client — </p>
+        <div class="case-grid">
+          <div>
+            <h4>Challenge</h4>
+            <p id="case-challenge"></p>
+            <h4>Solution</h4>
+            <p id="case-solution"></p>
+          </div>
+          <div>
+            <h4>Results</h4>
+            <p id="case-results"></p>
+            <h4>Deliverables</h4>
+            <p id="case-deliverables"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROCESS ================= -->
+  <section class="alt" id="process">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div>
+          <div class="eyebrow">How We Work</div>
+          <h2>The <span class="hl-olive">process</span></h2>
+        </div>
+        <p>Seven stages, in order, from first conversation to final delivery. Nothing skipped, nothing rushed.</p>
+      </div>
+      <div class="process-list fade-up" id="process-list"></div>
+    </div>
+  </section>
+
+  <!-- ================= INSIGHTS / BLOG ================= -->
+  <section id="insights">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div>
+          <div class="eyebrow">Insights</div>
+          <h2>From the studio <span class="hl-pink">journal</span></h2>
+        </div>
+        <p>Notes on branding, packaging, and print — the thinking behind the work.</p>
+      </div>
+      <div class="blog-grid fade-up" id="blog-grid"></div>
+    </div>
+  </section>
+
+  <!-- ================= CTA BANNER ================= -->
+  <section class="dark mat-grid cta-banner">
+    <div class="wrap cta-wrap-flex fade-up">
+      <div class="eyebrow cta-eyebrow">Let's Work Together</div>
+      <h2>Have a brand that deserves <span class="hl-yellow">better design</span>?</h2>
+      <button class="btn solid" data-scroll-to="#contact">Start a conversation <span class="btn-arrow">→</span></button>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div>
+          <div class="eyebrow">Good to Know</div>
+          <h2><span class="hl-blue">FAQ</span></h2>
+        </div>
+      </div>
+      <div class="fade-up" id="faq-list"></div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="dark mat-grid" id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-info fade-up">
+        <div class="eyebrow">Get In Touch</div>
+        <h2>Tell us about your <span class="hl-yellow">brand</span>.</h2>
+        <p class="contact-desc">Share a few details about your project and timeline. We reply to every inquiry within two business days.</p>
+        <div class="contact-links">
+          <a href="mailto:gigisatelierr@gmail.com">gigisatelierr@gmail.com</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn — Gigi's Atelier</a>
+          <a href="#" target="_blank" rel="noopener">Instagram — @gigisatelier</a>
+        </div>
+      </div>
+
+      <form class="fade-up" id="contact-form">
+        <div class="field">
+          <label for="f-name">Name</label>
+          <input id="f-name" type="text" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" type="email" placeholder="you@company.com" required>
+        </div>
+        <div class="field">
+          <label for="f-type">Project type</label>
+          <select id="f-type">
+            <option>Brand Identity</option>
+            <option>Packaging Design</option>
+            <option>Product Labels</option>
+            <option>Marketing Design</option>
+            <option>Digital Products</option>
+            <option>Printable Designs</option>
+            <option>Custom Project</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-msg">Project details</label>
+          <textarea id="f-msg" rows="4" placeholder="A little about your brand, timeline, and goals" required></textarea>
+        </div>
+        <button type="submit" class="btn solid">Send inquiry <span class="btn-arrow">→</span></button>
+        <p class="form-note" id="form-note">Thank you — this is a design prototype, so the form isn't wired up yet. Reach us directly at gigisatelierr@gmail.com.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="#home" class="logo">
+            <img src="assets/images/gigis-logo.png" alt="Gigi's Atelier logo">
+          </a>
+          <p class="footer-tagline">A creative studio for brand identity, packaging, and print.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Studio</h5>
+          <a href="#about">About</a>
+          <a href="#process">Process</a>
+          <a href="#insights">Insights</a>
+        </div>
+        <div class="footer-col">
+          <h5>Work</h5>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+        </div>
+        <div class="footer-col">
+          <h5>Connect</h5>
+          <a href="mailto:gigisatelierr@gmail.com">Email</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Gigi's Atelier. All rights reserved.</span>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
